@@ -1,16 +1,16 @@
 # Parking Occupancy Analysis
 
-Exploratory analysis of 4,138 occupancy readings across nine parking lots over four weeks, built to answer one question for a city council: is there a parking shortage, or are drivers going to the wrong lots?
+Exploratory analysis of 4,138 occupancy readings across nine parking lots over four weeks, built to answer one question for a plaza owner in Bradenton, Florida: is there a parking shortage, or are drivers going to the wrong lots?
 
 ![CI](https://github.com/TheSavage007/parking-occupancy-analysis/actions/workflows/ci.yml/badge.svg)
 
 ## The Business Problem
 
-A city is considering a smart parking investment. Before it spends on new capacity, it needs to know where and when demand outruns supply.
+A plaza owner in Bradenton, Florida was weighing a parking investment. Before spending on new capacity, the owner needed to know where and when demand outruns supply. I worked the data and delivered the findings to the owner.
 
 ## Data
 
-`data/parking_occupancy.csv` holds one reading per lot roughly every 30 minutes from 8:00 to 16:30, November 20 to December 17, 2022. See [data/data_dictionary.md](data/data_dictionary.md). Source: the parking space occupancy case from DAT/565 Data Analysis and Business Analytics at the University of Phoenix.
+`data/parking_occupancy.csv` holds one reading per lot roughly every 30 minutes from 8:00 to 16:30, November 20 to December 17, 2022. See [data/data_dictionary.md](data/data_dictionary.md). Source: plaza parking occupancy data, Bradenton, Florida.
 
 ## Results
 
@@ -38,7 +38,7 @@ A city is considering a smart parking investment. Before it spends on new capaci
 
 ## Findings
 
-1. The shortage is local, not citywide. At the weekday midday peak Lot02 averages 6 open spaces while Lots 03, 04, and 08 together hold more than 1,200.
+1. The shortage is local, not plaza wide. At the weekday midday peak Lot02 averages 6 open spaces while Lots 03, 04, and 08 together hold more than 1,200.
 2. Lot02 runs full most of the day and logs readings above its rated capacity.
 3. Demand tracks the work week and one shared midday peak.
 
